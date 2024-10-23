@@ -21,6 +21,7 @@ if uploaded_file is not None:
         ("Line Chart", "Bar Chart", "Area Chart")
     )
     
+    
     # Select columns from dataset
     columns = df.columns.tolist()
     selected_columns = st.multiselect("Pilih kolom untuk ditampilkan", columns)
